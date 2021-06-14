@@ -1,0 +1,43 @@
+html{
+    background-color: #123456;
+}
+
+#dane{
+    display: flex;
+    font-family: Consolas;
+    justify-content: space-evenly;
+}
+
+.dane{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wynik{
+    text-align: center;
+    font-size: 30px;
+    color: #1afa54;
+    font-weight: bolder;
+    font-family: Consolas;
+}
+
+#pojemnik{
+    display: flex;
+}
+
+#obracaj{
+    background-color: red;
+    font-weight: bolder;
+    font-family: Consolas;
+    border: 0;
+    margin: 0 auto;
+}
+
+canvas{
+    background: url(tlo.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#gui1 { position: absolute; top: 2px; left: 2px }
+#gui2 { position: absolute; top: 2px; right: 2px }
